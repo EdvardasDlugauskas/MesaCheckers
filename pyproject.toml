@@ -1,0 +1,6 @@
+[project]
+name = "mesacheckers"
+version = "0.1.0"
+description = "Mesa Checkers game"
+requires-python = ">=3.11"
+dependencies = []
