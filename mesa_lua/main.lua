@@ -6,7 +6,7 @@ local Board = require("board")
 
 function love.load()	
 	game_state = GameState:new(6)  -- or load from save
-	game_state.valid_moves = GameController.get_valid_starting_moves(game_state)
+	GameController.get_valid_starting_moves(game_state)
 end
 
 

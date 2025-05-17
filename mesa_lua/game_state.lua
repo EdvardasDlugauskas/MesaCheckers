@@ -11,7 +11,8 @@ function GameState:new(board_size)
 		active_xy=nil,
 		active_pile_size=0,
 		valid_moves={},
-		n_rocks=1
+		n_rocks=1,
+		rock_was_left=false
     }
 	
 	-- TEMP
